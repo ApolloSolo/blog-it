@@ -19,8 +19,8 @@
 
 {{#if posts.length}}
 <section>
-  <h2 class="text-center mt-4 mb-2">Yours Posts</h2>
-  <ol>
+  <h2 class="text-center mt-4">Yours Posts</h2>
+  <ol class="post-list">
     {{#each posts as |post|}}
     <li class="mb-3 pb-3">
       {{> post-info post}}
@@ -31,4 +31,6 @@
 </section class="mb-3 pb-3">
 {{/if}}
 
+{{#if loggedIn}}
 <script src="/js/add-post.js"></script>
+{{/if}}
