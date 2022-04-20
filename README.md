@@ -20,4 +20,4 @@ Create a fork of the project. Clone to create a local repository. Make changes t
 ## E-mail
 appsolo.tech@gmail.com
 ## Screenshots
-### [Video](/public/photos/blog-it.png);
+![blog-it](/photos/blog-it.png)
