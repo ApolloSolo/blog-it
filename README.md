@@ -12,7 +12,7 @@ Welcome to Blog-It. A simple blog platform in which to share your favorite conte
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Access
-To access Blog-It, utilize the link provided. Sign up for an account to gain instant access. Please utilize the platform respectfully and responsibly.   
+To access Blog-It, utilize the [LINK](https://guarded-beach-94931.herokuapp.com/) provided. Sign up for an account to gain instant access. Please utilize the platform respectfully and responsibly.   
 ## Contributing
 Create a fork of the project. Clone to create a local repository. Make changes to your copy the project, commit and push the changes. When you are ready to share the results of your work, [rebase](https://www.jetbrains.com/help/ruby/contribute-to-projects.html?source=google&medium=cpc&campaign=10116875233&gclid=CjwKCAjwoduRBhA4EiwACL5RPwRCscIRY-jH-olu0ltpGsBNk4a8XTZqANyML6Ff8yHeTCtiOt1hqRoCP5YQAvD_BwE#rebase-fork) your fork on the current HEAD of the master branch in the original project. This is needed to make sure your changes do not conflict with new commits that were pushed after you created your fork. Create a pull request to suggest your changes to the original project.
 ## GitHub
@@ -20,4 +20,4 @@ Create a fork of the project. Clone to create a local repository. Make changes t
 ## E-mail
 appsolo.tech@gmail.com
 ## Screenshots
-### [Video](#);
+### [Video](/public/photos/blog-it.png);
