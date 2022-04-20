@@ -1,5 +1,5 @@
-<section class="row">
-  <h2 class="text-center mt-4">Create New Post</h2>
+<section>
+  <h2 class="text-center mt-2 mb-4">Create New Post</h2>
   <div class="col-8 offset-2">
     <form class="new-post-form">
       <div class="mb-3 text-center">
@@ -14,11 +14,12 @@
         <button type="submit" class="btn btn-outline-success">Create</button>
       </div>
     </form>
+    </div>
 </section>
 
 
 {{#if posts.length}}
-<section>
+<section class="pb-5">
   <h2 class="text-center mt-4">Yours Posts</h2>
   <ol class="post-list">
     {{#each posts as |post|}}

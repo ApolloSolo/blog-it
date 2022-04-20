@@ -1,14 +1,15 @@
-{{> post-info post}}
+<div class="container pt-2">
+  {{> post-info post}}
 
 {{#if loggedIn}}
-<form class="comment-form">
-  <div>
-    <textarea name="comment-body"></textarea>
+<form class="comment-form border-top border-bottom border-secondary pt-1 pb-2 mb-3">
+  <div class="mb-1 p-1">
+    <textarea class="form-control" name="comment-body" placeholder="Leave a comment"></textarea>
   </div>
 
-  <div>
-    <button type="submit">add comment</button>
-    <button type="button" class="upvote-btn">upvote</button>
+  <div class="d-flex justify-content-evenly ">
+    <button class="btn btn-success" type="submit">add comment</button>
+    <button class="btn btn-info" type="button" class="upvote-btn">upvote</button>
   </div>
 </form>
 {{/if}}
@@ -19,3 +20,4 @@
 <script src="/js/comment.js"></script>
 <script src="/js/upvote.js"></script>
 {{/if}}
+</div>
