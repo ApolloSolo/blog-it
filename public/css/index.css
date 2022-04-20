@@ -1,7 +1,5 @@
-
 body{
     background-color: rgb(233, 233, 233);
-
 }
 
 .home-bg{
@@ -19,8 +17,20 @@ body{
 .post-list{
     text-decoration: none;
     list-style-type: none;
-    padding: 1rem;
+    padding: 0 2rem 0 2rem;
     margin: 1rem;
+}
+
+#comment-card{
+    box-shadow: 5px 4px 4px rgb(167, 167, 167);
+}
+
+input{
+    box-shadow: 2px 4px 4px rgb(218, 218, 218);
+}
+
+textarea{
+    box-shadow: 10px 5px 5px rgb(167, 167, 167);
 }
 
 
